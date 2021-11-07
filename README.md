@@ -1,7 +1,7 @@
 # KDB
 
-> Kdb+ is a database.
-> Q is a general-purpose programming language. You can write programs for anything in q.
+> Kdb+ is a database.  
+> Q is a general-purpose programming language. You can write programs for anything in q.  
 
 ## Environment Variables
 The q process refers to QHOME, QLIC, and QINIT environment variables at the time of execution. 
@@ -15,8 +15,8 @@ The q process refers to QHOME, QLIC, and QINIT environment variables at the time
 - [Learn - Tables](https://code.kx.com/q/learn/startingkdb/tables/)
 - [Q for Mortals - Tables](https://code.kx.com/q4m3/8_Tables/)
 
-> It is good practice to specify the types of all columns in an empty table.
-> A keyed table is not a table – it is a dictionary and so has type 99h.
+> It is good practice to specify the types of all columns in an empty table.  
+> A keyed table is not a table – it is a dictionary and so has type 99h.  
 
 ### Tips
 
