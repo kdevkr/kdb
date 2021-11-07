@@ -1,0 +1,1 @@
+-1"The environment variable QINIT specifies the name of the file that is executed immediately after the load of q.k. If QINIT is not defined, kdb+ attempts to load the file q.q from QHOME. If QHOME is not defined or q.q is not found, no error is reported.";
