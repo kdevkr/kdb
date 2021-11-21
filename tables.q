@@ -1,6 +1,4 @@
 / tables.q
-/ https://code.kx.com/q4m3/8_Tables/
-/ https://code.kx.com/q/learn/startingkdb/tables/
 
 / If you need an empty table,
 system "l start/trades.q"
@@ -23,8 +21,8 @@ count trades / trades contain 2560000 rows
 ktrades:3!trades / convert key table but not duplicated.
 count ktrades / ktrades contain 2560000 rows
 ektrades:0#ktrades
-dktrades:ektrades upsert ktrades / 2499
-count dktrades / dktrades contain 2499 rows
+dktrades:ektrades upsert ktrades / 2497
+count dktrades / dktrades contain 2497 rows
 
 \ts:10 ektrades upsert ktrades / 2335 335544784
 \ts:10 ektrades,: ktrades / 1012 335544656
@@ -33,10 +31,11 @@ count dktrades / dktrades contain 2499 rows
 data: ([uuid:"s"$();timestamp:"p"$()]date:"d"$();val:"f"$();modified_at:"p"$());
 update `g#uuid,`s#timestamp from `data
 meta data
+
 / c          | t f a
 / -----------| -----
 / uuid       | s   g
 / timestamp  | p   s
 / date       | d    
 / val        | f    
-/ modified_at| p   
+/ modified_at| p 
